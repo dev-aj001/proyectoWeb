@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario Login</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="form-login">
+      <h5>Inicio de Seción</h5>
+      <input class="controls" type="text" name="usuario" id="Usuario" value="" placeholder="Usuario">
+      <input class="controls" type="password" name="contraseña" id="Contraseña" value="" placeholder="Contraseña">
+      <input class="buttons" type="password" name="Iniciar Seción" value="" placeholder="Iniciar Seción" id="button1">
+      <script>
+        document.getElementById("button1").onclick = function() {
+          const username = document.getElementById('Usuario').value;
+    const contraseña = document.getElementById('Contraseña').value;
+    
+    // Inicia sesión con correo electrónico y contraseña
+    firebase.auth().signInWithEmailAndPassword(username,contraseña)
+    .then((userCredential) => {
+        // Inicio de sesión exitoso, puedes redirigir al usuario o hacer otras acciones
+        alert('Inicio de sesión exitoso!');
+    })
+    .catch((error) => {
+        // Maneja errores de inicio de sesión
+        alert('Error al iniciar sesión: ' + error.message);
+    });
+            //alert("¡Haz hecho clic en el botón!");
+        };
+
+        ///
+    </script>
+      <input class="buttons" type="password" name="Registrarse" value="" placeholder="Registrarse">
+      <button class="buttons" type="submit" name="" value="Registrarse">
+      <p><a href="index.html" class="btn" >Regresar</a></p>
+      <p><a href="#">¿Olvidastes tu Contraseña?</a></p>
+      
+
+    </section>
+
+  </body>
+</html>
