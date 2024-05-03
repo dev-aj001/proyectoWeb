@@ -17,30 +17,3 @@ const firebaseConfig = {
   const db = firebase.firestore();
 
 
-  function login() {
-  const loginForm = document.getElementById('loginForm');
-        loginForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-                var email = document.getElementById("email").value;
-                var password = document.getElementById("password").value;
-
-                firebase.auth().signInWithEmailAndPassword(email, password)
-                    .then((userCredential) => {
-                        var userId = userCredential.user.uid;
-                        var date = new Date().toISOString();
-                        // Guarda la fecha de acceso en Firestore
-                        db.collection("userAccess").doc(userId).set({
-                            lastAccess: date
-                        })
-                            .then(() => {
-                                console.log("Fecha de acceso registrada en Firestore");
-                            })
-                            .catch((error) => {
-                                console.error("Error al registrar fecha de acceso en Firestore: ", error);
-                            });
-                    })
-                    .catch((error) => {
-                        console.error('Error al iniciar sesión:', error);
-                    });
-            });
-}
