@@ -139,13 +139,22 @@
 </nav>
 -->
 <!--Clase main donde se muestran las paginas--> 
+<!--
 <main class="bg-[#ADACAD] text-black h-screen">
     <div class="container py-6 h-full m-auto flex justify-center items-center">
         <div>
-            <slot></slot> <!--Contenido--> 
+            <slot></slot> 
         </div>
     </div>
+</main> -->
+<main class="bg-[#ADACAD] text-black min-h-screen">
+  <div class="container py-6 mx-auto flex justify-center items-center">
+      <div>
+          <slot></slot>
+      </div>
+  </div>
 </main>
+
 <!--Pie de pagina--> 
 <footer class="bg-[#025E73] text-[#F2F2F2] py-6 px-16 font-sans tracking-wide">
       <div class="flex justify-between items-center max-lg:flex-col text-center flex-wrap gap-4">

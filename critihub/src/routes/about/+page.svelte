@@ -1,4 +1,4 @@
-<h1>Hola</h1>
+
 <!----<script> 
  import { onMount } from 'svelte';
 import {auth} from '$lib/firebase';
