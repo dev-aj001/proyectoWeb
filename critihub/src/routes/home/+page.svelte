@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -153,19 +153,19 @@
     <body>
         <div class="contenedor-carrusel">
             <div class="contenedor-imagen">
-                <img src="https://static.cinepolis.com/resources/mx/movies/posters/414x603/42129-729588-20230405074853.jpg" alt="Imagen 1">
+                <img src="https://i.ebayimg.com/images/g/emYAAOSw~jtlbQqy/s-l1600.jpg" alt="Imagen 1">
             </div>
             <div class="contenedor-imagen">
-                <img src="https://static.cinepolis.com/resources/mx/movies/posters/414x603/42129-729588-20230405074853.jpg" alt="Imagen 2">
+                <img src="https://moviepostermexico.com/cdn/shop/products/arcane_league_of_legends_ver9_xxlg_1024x1024@2x.jpg?v=1652898384" alt="Imagen 2">
             </div>
             <div class="contenedor-imagen">
-                <img src="https://static.cinepolis.com/resources/mx/movies/posters/414x603/42129-729588-20230405074853.jpg" alt="Imagen 3">
+                <img src="https://image.tmdb.org/t/p/original/5UuJsD8ByTir7PkW8gVciYaDNBa.jpg" alt="Imagen 3">
             </div>
             <div class="contenedor-imagen">
-                <img src="https://static.cinepolis.com/resources/mx/movies/posters/414x603/42129-729588-20230405074853.jpg" alt="Imagen 4">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/kdga1zk0/poster/v/m/y/large-suits01-suits-tv-series-poster-harvey-specter-suits-original-imafucfaqgsvqncq.jpeg?q=90&crop=false" alt="Imagen 4">
             </div>
             <div class="contenedor-imagen">
-                <img src="https://static.cinepolis.com/resources/mx/movies/posters/414x603/42129-729588-20230405074853.jpg" alt="Imagen 5">
+                <img src="https://m.media-amazon.com/images/M/MV5BM2Q5YjNjZWMtYThmYy00N2ZjLWE2NDctNmZjMmZjYWE2NjEwXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_.jpg" alt="Imagen 5">
             </div>
         </div>
     
@@ -214,19 +214,19 @@
     <body>
         <div class="contenedor-carrusel">
             <div class="contenedor-imagen">
-                <img src="https://static.cinepolis.com/resources/mx/movies/posters/414x603/42129-729588-20230405074853.jpg" alt="Imagen 1">
+                <img src="https://m.media-amazon.com/images/I/711kqNse62L._AC_UF894,1000_QL80_.jpg" alt="Imagen 1">
             </div>
             <div class="contenedor-imagen">
-                <img src="https://static.cinepolis.com/resources/mx/movies/posters/414x603/42129-729588-20230405074853.jpg" alt="Imagen 2">
+                <img src="https://i.etsystatic.com/35704812/r/il/ea4a8b/4878196946/il_fullxfull.4878196946_3auu.jpg" alt="Imagen 2">
             </div>
             <div class="contenedor-imagen">
-                <img src="https://static.cinepolis.com/resources/mx/movies/posters/414x603/42129-729588-20230405074853.jpg" alt="Imagen 3">
+                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202309/0718/60ebb0f1f65149baa3c3ea07b08f8595c17e7759fea79e1c.jpg" alt="Imagen 3">
             </div>
             <div class="contenedor-imagen">
-                <img src="https://static.cinepolis.com/resources/mx/movies/posters/414x603/42129-729588-20230405074853.jpg" alt="Imagen 4">
+                <img src="https://m.media-amazon.com/images/I/71Sy2ru7JuL._AC_UF894,1000_QL80_DpWeblab_.jpg" alt="Imagen 4">
             </div>
             <div class="contenedor-imagen">
-                <img src="https://static.cinepolis.com/resources/mx/movies/posters/414x603/42129-729588-20230405074853.jpg" alt="Imagen 5">
+                <img src="https://m.media-amazon.com/images/M/MV5BNjZiODYzNjctNTJkZi00Y2YxLTgyNTktZDYyZTZmZTIyMmVlXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_.jpg" alt="Imagen 5">
             </div>
         </div>
        

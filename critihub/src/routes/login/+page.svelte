@@ -15,7 +15,7 @@
       const hola = await signInWithEmailAndPassword(auth,email,password);
             $user = hola.currentUser
              $isLoggedIn = true
-            goto("/home")
+            goto("/Series")
             console.log("Conexion Exitosa")
     } catch (error) {
       console.error(error);
@@ -29,7 +29,7 @@
             $user = res.user
             $isLoggedIn = true
             console.log(res)
-            goto("/home")
+            goto("/perfil")
         } catch (error) {
             console.error(error)
         }

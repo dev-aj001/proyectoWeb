@@ -148,7 +148,7 @@
     </div>
 </main> -->
 <main class="bg-[#ADACAD] text-black min-h-screen">
-  <div class="container py-6 mx-auto flex justify-center items-center">
+  <div class="container py-6 h-full mx-auto flex justify-center items-center">
       <div>
           <slot></slot>
       </div>
