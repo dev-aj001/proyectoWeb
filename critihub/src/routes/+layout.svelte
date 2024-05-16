@@ -1,4 +1,5 @@
-<slot></slot><style></style><slot></slot><script>import { browser } from "$app/environment";
+
+<script>import { browser } from "$app/environment";
 import { onMount } from "svelte";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -12,4 +13,6 @@ onMount(async () => {
   // const bootstrap = await import("bootstrap");
   // sample usage: 
   // const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
-});</script><style></style>
+});</script>
+
+<slot></slot>
