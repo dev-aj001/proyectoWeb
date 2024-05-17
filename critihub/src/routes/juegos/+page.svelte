@@ -5,8 +5,88 @@
     }
 </script>
 
+
+<div class="my-div">   
+<div class="blue-bar text-white flex justify-between items-center px-4 py-2">
+    <div class="space-x-4">
+        <button class="button">Juegos</button>
+        <button class="button">Películas</button>
+        <button class="button">Series</button>
+    </div>
+    <input type="text" class="search-bar border border-gray-300 rounded-md px-4 py-2 w-48" placeholder="Buscar..." bind:value={searchValue} on:input={handleInput}>
+    <button class="login-button bg-orange-500 text-white px-4 py-2 rounded-md">Iniciar sesión</button>
+</div>
+
+<div class="cuadrogeneral p-4 rounded-lg">
+    <div class="bottom-bar-content">
+        Grand Theft Auto V <br>(GTA V)
+    </div>
+    <div class="video-link">
+        <p class="release-datexd">Fecha de lanzamiento: 17/09/2013 <br> Trailer Oficial Youtube</p>
+        <iframe width="450" height="250" src="https://www.youtube.com/embed/QkkoHAzjnUs?si=hDt-7BdgZE_L9rVl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="score-containerv">
+        <span class="scorexd">Score</span>
+        <span class="star-icon">&#9733;</span>
+        <span class="scorenum">4.5</span>
+    </div>
+    <div class="square-mamalon">
+        <img src="https://th.bing.com/th/id/OIP.YP8uU_kv4kHzzMHQkg1hygHaHa?rs=1&pid=ImgDetMain">
+    </div>
+    <div class="square-mamalon">
+        <img src="https://www.xtrafondos.com/wallpapers/asus-rog-republic-of-gamers-logo-5092.jpg">
+    </div>
+    <div class="square-mamalon">
+        <img src="https://th.bing.com/th/id/OIP.XiHY_4yuBHZ7WUJuQI5YUAHaHa?rs=1&pid=ImgDetMain">
+    </div>
+    <div class="miscore">
+        <span class="scorexd">Mi Score</span>
+        <span class="scorenum">5.0</span>
+    </div>
+    <div class="estrellitas-rating">
+        <span class="star-icon">&#9733;</span>
+        <span class="star-icon">&#9733;</span>
+        <span class="star-icon">&#9733;</span>
+        <span class="star-icon">&#9733;</span>
+        <span class="star-icon">&#9733;</span>
+    </div>
+    <div class="category-texto">
+        <p class="category-texto">Categorias</p>
+    </div>
+    <br class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+    <div class="category-container">
+        <div class="category-box">
+            <p class="category-text">Juegos</p>
+        </div>
+        <div class="category-box">
+            <p class="category-text">Mundo abierto</p>
+        </div>
+        <div class="category-box">
+            <p class="category-text">Shooter</p>
+        </div>
+    </div>
+    <br class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+    <div class="sinopsis bg-[#ADACAD] p-4 rounded-lg text-left">
+        <p class="text-xl ml-64">Sinopsis: <br> Grand Theft Auto V (comúnmente abreviado como GTA V o Grand Theft Auto V: Modo historia), es la decimoquinta entrega de la saga Grand Theft Auto que fue lanzado el 17 de septiembre de 2013 para las consolas Xbox 360 y PlayStation 3.</p>
+    </div>
+    <div class="reseña">
+        <button class="reseña bg-[#037F8C] text-black px-10 py-3 rounded-md mt-4">Reseñar</button>
+    </div>
+</div>
+</div>
+
 <style>
-    body {
+    .my-div {
+        max-width: 1200px;
+        max-height: 800px;
+        margin: 0 auto;
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+     body {
         background-color: rgba(173, 172, 173, 1);
     }
     .blue-bar {
@@ -142,71 +222,4 @@
         margin-left: 40%;
         margin-top: -14%;
     }
-</style>
-
-<div class="blue-bar text-white flex justify-between items-center px-4 py-2">
-    <div class="space-x-4">
-        <button class="button">Juegos</button>
-        <button class="button">Películas</button>
-        <button class="button">Series</button>
-    </div>
-    <input type="text" class="search-bar border border-gray-300 rounded-md px-4 py-2 w-48" placeholder="Buscar..." bind:value={searchValue} on:input={handleInput}>
-    <button class="login-button bg-orange-500 text-white px-4 py-2 rounded-md">Iniciar sesión</button>
-</div>
-
-<div class="cuadrogeneral p-4 rounded-lg">
-    <div class="bottom-bar-content">
-        Grand Theft Auto V <br>(GTA V)
-    </div>
-    <div class="video-link">
-        <p class="release-datexd">Fecha de lanzamiento: 17/09/2013 <br> Trailer Oficial Youtube</p>
-        <iframe width="450" height="250" src="https://www.youtube.com/embed/QkkoHAzjnUs?si=hDt-7BdgZE_L9rVl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-    <div class="score-containerv">
-        <span class="scorexd">Score</span>
-        <span class="star-icon">&#9733;</span>
-        <span class="scorenum">4.5</span>
-    </div>
-    <div class="square-mamalon">
-        <img src="https://th.bing.com/th/id/OIP.YP8uU_kv4kHzzMHQkg1hygHaHa?rs=1&pid=ImgDetMain">
-    </div>
-    <div class="square-mamalon">
-        <img src="https://www.xtrafondos.com/wallpapers/asus-rog-republic-of-gamers-logo-5092.jpg">
-    </div>
-    <div class="square-mamalon">
-        <img src="https://th.bing.com/th/id/OIP.XiHY_4yuBHZ7WUJuQI5YUAHaHa?rs=1&pid=ImgDetMain">
-    </div>
-    <div class="miscore">
-        <span class="scorexd">Mi Score</span>
-        <span class="scorenum">5.0</span>
-    </div>
-    <div class="estrellitas-rating">
-        <span class="star-icon">&#9733;</span>
-        <span class="star-icon">&#9733;</span>
-        <span class="star-icon">&#9733;</span>
-        <span class="star-icon">&#9733;</span>
-        <span class="star-icon">&#9733;</span>
-    </div>
-    <div class="category-texto">
-        <p class="category-texto">Categorias</p>
-    </div>
-    <br class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-    <div class="category-container">
-        <div class="category-box">
-            <p class="category-text">Juegos</p>
-        </div>
-        <div class="category-box">
-            <p class="category-text">Mundo abierto</p>
-        </div>
-        <div class="category-box">
-            <p class="category-text">Shooter</p>
-        </div>
-    </div>
-    <br class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-    <div class="sinopsis bg-[#ADACAD] p-4 rounded-lg text-left">
-        <p class="text-xl ml-64">Sinopsis: <br> Grand Theft Auto V (comúnmente abreviado como GTA V o Grand Theft Auto V: Modo historia), es la decimoquinta entrega de la saga Grand Theft Auto que fue lanzado el 17 de septiembre de 2013 para las consolas Xbox 360 y PlayStation 3.</p>
-    </div>
-    <div class="reseña">
-        <button class="reseña bg-[#037F8C] text-black px-10 py-3 rounded-md mt-4">Reseñar</button>
-    </div>
-</div>
+    </style>
